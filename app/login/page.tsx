@@ -9,7 +9,7 @@ const Login = () => {
                 <div className="flex flex-col justify-center items-center bg-[#F8FBFF] p-8 rounded-lg">
                     <div className="mb-6 w-[150px] lg:w-[200px]">
                         <img 
-                            src="https://quickpay.net/svg/logo.bdef3b1dd64854481f5a80ac7cd2cfc49fab4b308bae8431060f879355d25eda.svg"
+                            src="https://quickpay.net/svg/logo.bdef3b1dd64854481f5a80ac7cd2cfc49fab4b308bae8431060f879355d25eda.svg/helloworld"
                             alt="QuickPay Logo" 
                             className="w-full"
                         />
