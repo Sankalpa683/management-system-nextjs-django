@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Button, Input } from '@chakra-ui/react';
 import axios from 'axios';
-import { useRouter } from 'next/navigation'; // Next.js App Router hook
+import { useRouter } from 'next/navigation'; // Adjusted for Pages Router (if you're using App Router, keep it as is)
 
 const Login = () => {
     const [email, setEmail] = useState('');
