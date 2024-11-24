@@ -25,6 +25,7 @@ const Login = () => {
             });
 
             const { token, user } = response.data;
+            console.log(user.role);
             console.log('Login successful:', { token, user });
 
             // Save the token in localStorage
@@ -34,7 +35,7 @@ const Login = () => {
             axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
             // Redirect to the dashboard page
-            router.push('/dashboard');
+            // router.push('/dashboard');
             
         } catch (error) {
             setError(error.response?.data?.message || 'Something went wrong!');
